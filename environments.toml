@@ -473,7 +473,7 @@ app = "GoAhead"
 path = "goahead/CVE-2021-42342"
 
 [[environment]]
-name = "Gogs Arbitrary User Login"
+name = "Gogs Session Overwrite and Arbitrary User Forge"
 cve = ["CVE-2018-18925"]
 app = "Gogs"
 path = "gogs/CVE-2018-18925"
@@ -563,7 +563,7 @@ app = "InfluxDB"
 path = "influxdb/CVE-2019-20933"
 
 [[environment]]
-name = "Jackson-databind Deserialization"
+name = "Jackson-databind Deserialization Remote Command Execution"
 cve = ["CVE-2017-7525"]
 app = "Jackson-Databind"
 path = "jackson/CVE-2017-7525"
@@ -647,13 +647,19 @@ app = "Jetty"
 path = "jetty/CVE-2021-34429"
 
 [[environment]]
+name = "JimuReport FreeMarker Server Side Template Injection RCE"
+cve = ["CVE-2023-4450"]
+app = "JimuReport"
+path = "jimureport/CVE-2023-4450"
+
+[[environment]]
 name = "Atlassian Jira Template Injection"
 cve = ["CVE-2019-11581"]
 app = "Jira"
 path = "jira/CVE-2019-11581"
 
 [[environment]]
-name = "Jmeter RMI Deserialization Command Execution"
+name = "Apache JMeter RMI Deserialization Remote Code Execution"
 cve = ["CVE-2018-1297"]
 app = "Apache Jmeter"
 path = "jmeter/CVE-2018-1297"
@@ -707,10 +713,16 @@ app = "Kibana"
 path = "kibana/CVE-2019-7609"
 
 [[environment]]
+name = "kkFileView ZipSlip Remote Code Execution"
+cve = []
+app = "kkFileView"
+path = "kkfileview/4.3-zipslip-rce"
+
+[[environment]]
 name = "Laravel Ignition 2.5.1 Code Execution"
 cve = ["CVE-2021-3129"]
 app = "Laravel"
-path = "kibana/CVE-2021-3129"
+path = "laravel/CVE-2021-3129"
 
 [[environment]]
 name = "Librsvg XInclude Arbitrary file reading"
