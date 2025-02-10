@@ -203,6 +203,12 @@ app = "Apache CouchDB"
 path = "couchdb/CVE-2022-24706"
 
 [[environment]]
+name = "CraftCMS register_argc_argv Leads to Remote Code Execution"
+cve = ["CVE-2024-56145"]
+app = "CraftCMS"
+path = "craftcms/CVE-2024-56145"
+
+[[environment]]
 name = "OpenPrinting Cups-Browsed Remote Code Execution via The FoomaticRIPCommandLine PPD parameter"
 cve = ["CVE-2024-47177"]
 app = "OpenPrinting Cups-Browsed"
@@ -413,6 +419,18 @@ app = "Apache Flink"
 path = "flink/CVE-2020-17519"
 
 [[environment]]
+name = "GeoServer Unauthenticated SSRF Vulnerability"
+cve = ["CVE-2021-40822"]
+app = "GeoServer"
+path = "geoserver/CVE-2021-40822"
+
+[[environment]]
+name = "GeoServer Remote Code Injection caused by JAI-EXT"
+cve = ["CVE-2022-24816", "CVE-2023-35042"]
+app = "GeoServer"
+path = "geoserver/CVE-2022-24816"
+
+[[environment]]
 name = "GeoServer OGC Filter SQL Injection"
 cve = ["CVE-2023-25157"]
 app = "GeoServer"
@@ -555,6 +573,12 @@ name = "Apache SSI Remote Command Execution"
 cve = []
 app = "Apache HTTP Server"
 path = "httpd/ssi-rce"
+
+[[environment]]
+name = "Apache HugeGraph Unauthenticated Remote Code Execution"
+cve = ["CVE-2024-27348"]
+app = "Apache HugeGraph"
+path = "hugegraph/CVE-2024-27348"
 
 [[environment]]
 name = "Imagetragick Command Execution"
@@ -1163,10 +1187,16 @@ app = "Rocket.Chat"
 path = "rocketchat/CVE-2021-22911"
 
 [[environment]]
-name = "Apache RocketMQ Remote Command Execution"
+name = "Apache RocketMQ Broker Remote Command Execution"
 cve = ["CVE-2023-33246"]
 app = "Apache RocketMQ"
 path = "rocketmq/CVE-2023-33246"
+
+[[environment]]
+name = "Apache RocketMQ NameServer Arbitrary File Write Vulnerability"
+cve = ["CVE-2023-37582"]
+app = "Apache RocketMQ"
+path = "rocketmq/CVE-2023-37582"
 
 [[environment]]
 name = "rsync Unauthorized Access"
